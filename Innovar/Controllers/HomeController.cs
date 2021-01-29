@@ -26,7 +26,7 @@ namespace Innovar.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            return View("~/Views/Bordados/Notes.cshtml");
         }
         public IActionResult Notes()
         {

@@ -20,7 +20,8 @@ namespace Innovar.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var Links = new LinksVar();
+            return View(Links);
         }
 
         public IActionResult Privacy()

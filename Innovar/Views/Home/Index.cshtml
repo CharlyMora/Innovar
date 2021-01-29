@@ -1,10 +1,11 @@
-﻿@{
+﻿@model LinksVar
+@{
     ViewData["Title"] = "Innovar";
     Layout = "~/Views/Shared/_Clean.cshtml";
 }
 
 <div class="text-center">
-    <img src="Images/LogoInnovar2.png" alt="Logo innovar" width="300" />
+    <img src="@Url.Content(@Model.LogoInnovar)" alt="Logo innovar" width="300" />
 </div>
 
 <div class="text-center">

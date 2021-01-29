@@ -26,6 +26,7 @@ namespace Innovar.Controllers
 
         public IActionResult Privacy()
         {
+            //test to change the route
             return View("~/Views/Bordados/Notes.cshtml");
         }
         public IActionResult Notes()

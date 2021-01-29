@@ -27,6 +27,10 @@ namespace Innovar.Controllers
         {
             return View();
         }
+        public IActionResult Notes()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

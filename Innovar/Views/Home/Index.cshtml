@@ -4,9 +4,17 @@
     Layout = "~/Views/Shared/_Clean.cshtml";
 }
 
+<style>
+    header img {
+        display: block;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
 
 <header>
-    <img src="@Url.Content(@Model.LogoInnovar)" alt="Logo innovar" width="300" />
+    <img src="@Url.Content(@Model.LogoInnovar)" alt="Logo innovar" />
 </header>
 
 

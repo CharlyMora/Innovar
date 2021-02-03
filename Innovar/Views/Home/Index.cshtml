@@ -19,14 +19,34 @@
     nav a{
         color:black;
     }
-       
+    .carousel{
+        width: 100%;
+        overflow:scroll;
+        padding: 30px;
+        position: relative;
+    }
+    .carousel__container{
+        white-space: nowrap;
+        margin:70px 0px;
+        padding-bottom: 10px;
+    }
+    .carousel__item{
+        background-color: rebeccapurple;
+        width: 200px;
+        height:250px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-right: 10px;
+        display: inline-block;
+        cursor:pointer;
+    }
+     
 </style>
 
 <header>
     <img src="@Url.Content(@Model.LogoInnovar)" alt="Logo innovar" />
 </header>
 
-
 <h2>bordados</h2>
 <nav>
     
@@ -49,4 +69,14 @@
         Quiero ofrecer servicios!!!
     </a>
 </nav>
+<section class="carousel">
+    <div class="carousel__container">
+        <div class="carousel__item">
+
+        </div>
+        <div class="carousel__item">
+
+        </div>
+    </div>
+</section>
 

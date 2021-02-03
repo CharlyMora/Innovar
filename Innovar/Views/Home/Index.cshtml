@@ -16,31 +16,50 @@
         background-color: grey;
     }
 
-    nav a{
-        color:black;
-    }
-    .carousel{
+        nav a {
+            color: black;
+        }
+
+    .carousel {
         width: 100%;
-        overflow:scroll;
+        overflow: scroll;
         padding: 30px;
         position: relative;
     }
-    .carousel__container{
+
+    .carousel__container {
         white-space: nowrap;
-        margin:70px 0px;
+        margin: 70px 0px;
         padding-bottom: 10px;
     }
-    .carousel__item{
+
+    .carousel__item {
         background-color: rebeccapurple;
         width: 200px;
-        height:250px;
+        height: 250px;
         border-radius: 20px;
         overflow: hidden;
         margin-right: 10px;
         display: inline-block;
-        cursor:pointer;
+        cursor: pointer;
+        transition:450ms all;
+        transform-origin: center left;
     }
-     
+
+        .carousel__item:hover ~ .carousel__item {
+            transform: translate3d(100px,0,0);
+            background-color: red;
+            
+        }
+
+    .carousel__container:hover .carousel__item {
+        opacity: 0.5;
+    }
+
+        .carousel__container:hover .carousel__item:hover {
+            transform: scale(1.5);
+            opacity: 1;
+        }
 </style>
 
 <header>
@@ -49,7 +68,7 @@
 
 <h2>bordados</h2>
 <nav>
-    
+
 
     <a href="SobreNosotros.html">
         Sobre nosotros
@@ -60,7 +79,7 @@
 </nav>
 <h2>bordados</h2>
 <nav>
-    
+
 
     <a href="SobreNosotros.html">
         Sobre nosotros
@@ -71,6 +90,12 @@
 </nav>
 <section class="carousel">
     <div class="carousel__container">
+        <div class="carousel__item">
+
+        </div>
+        <div class="carousel__item">
+
+        </div>
         <div class="carousel__item">
 
         </div>

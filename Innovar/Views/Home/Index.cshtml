@@ -70,9 +70,37 @@
         object-fit:cover;
     }
 
+    .UniformesImgs-item {
+        white-space: nowrap;
+        background-color: rebeccapurple;
+        width: 220px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-right: 10px;
+        display: inline-block;
+        cursor: pointer;
+        transition: 450ms all;
+        transform-origin: center left;
+        position: relative;
+    }
+
+        .UniformesImgs-item:hover ~ .UniformesImgs-item {
+            transform: translate3d(100px,0,0);
+            background-color: red;
+        }
+
+    .UniformesImgs__container:hover .UniformesImgs-item {
+        opacity: 0.5;
+    }
+
+        .UniformesImgs__container:hover .UniformesImgs-item:hover {
+            transform: scale(1.5);
+            opacity: 1;
+        }
+
+
     .UniformesImgs-item__img {
         width: 220px;
-        /*height: 250px;*/
         object-fit: cover;
     }
 </style>
@@ -106,7 +134,7 @@
 <section class="carousel">
     <div class="carousel__container">
         <!--Line to keep carousel working, in line block-->
-        <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>    
+        <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
         <div class="carousel-item">
             <img class="carousel-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/r270/40867928_288298701990400_2981374251715526656_o.jpg?_nc_cat=106&ccb=2&_nc_sid=cdbe9c&_nc_ohc=qjFjRNs_C-oAX-4Ruzu&_nc_ht=scontent-bog1-1.xx&oh=0d79cb5dd6a9a665e8453104ffd26c58&oe=6040F22F"
                  alt="bordados camisetas gorras y corbata" />
@@ -131,11 +159,12 @@
             <img class="carousel-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/41040164_288261008660836_2348901048493539328_o.jpg?_nc_cat=104&ccb=2&_nc_sid=cdbe9c&_nc_ohc=a6oiWDdNN9EAX8WwrlR&_nc_ht=scontent-bog1-1.xx&oh=faa011849af77ab4c26c3b0426e56f15&oe=60404F33"
                  alt="gorra ligera bordada" />
         </div>
-        <div class="carousel-item">
-            <img class="carousel-item__img" src=""
-                 alt="bordados camisetas gorras y corbata" />
-        </div>
-
+        <!-- 
+         <div class="carousel-item">
+         <img class="carousel-item__img" src=""
+              alt="" />
+          </div>
+        -->
 
     </div>
 </section>
@@ -144,7 +173,19 @@
     <div class="UniformesImgs__container">
         <div class="UniformesImgs-item">
             <img class="UniformesImgs-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/41022958_287837428703194_5605685160327512064_o.jpg?_nc_cat=101&ccb=2&_nc_sid=cdbe9c&_nc_ohc=yfu3bY8FnCsAX96P7yf&_nc_ht=scontent-bog1-1.xx&oh=67178226f11064343517f3ab9c85bacb&oe=6043FC23"
-                 alt="bordados camisetas gorras y corbata" />
+                 alt="Uniforme blazer azul y pantalon negro" />
+        </div>
+        <div class="UniformesImgs-item">
+            <img class="UniformesImgs-item__img" src=""
+                 alt="" />
+        </div>
+        <div class="UniformesImgs-item">
+            <img class="UniformesImgs-item__img" src=""
+                 alt="" />
+        </div>
+        <div class="UniformesImgs-item">
+            <img class="UniformesImgs-item__img" src=""
+                 alt="" />
         </div>
     </div>
 </section>

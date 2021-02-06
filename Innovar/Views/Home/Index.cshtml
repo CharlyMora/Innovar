@@ -5,14 +5,18 @@
 }
 
 <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     header img {
         display: block;
         width: 300px;
         margin-left: auto;
         margin-right: auto;
     }
-
-
 
     .carousel {
         width: 100%;
@@ -22,18 +26,18 @@
     }
 
     .carousel__container {
-        background-color:red;
+        
         white-space: nowrap;
         margin: 70px 0px;
         padding-bottom: 10px;
         display: inline-block;
     }
 
+    
     .carousel-item {
         white-space: nowrap;
         background-color: rebeccapurple;
-        width: 200px;
-        height: 250px;
+        width: 220px;
         border-radius: 20px;
         overflow: hidden;
         margin-right: 10px;
@@ -44,25 +48,24 @@
         position: relative;
     }
 
-        .carousel-item:hover ~ .carousel-item {
+        .carousel-item:hover ~ .UniformesImgs-item {
             transform: translate3d(100px,0,0);
             background-color: red;
-            
         }
 
-    .carousel__container:hover .carousel-item {
+    .carousel__container:hover .UniformesImgs-item {
         opacity: 0.5;
     }
 
-        .carousel__container:hover .carousel-item:hover {
-            transform: scale(1.5);
-            opacity: 1;
-        }
+    .carousel__container:hover .UniformesImgs-item:hover {
+        transform: scale(1.5);
+        opacity: 1;
+    }
 
-    .carousel-item__img{
-        width:200px;
+    .carousel-item__img {
+        width: 220px;
         height: 250px;
-        object-fit:cover;
+        object-fit: cover;
     }
 
     .UniformesImgs {
@@ -140,42 +143,34 @@
         Quiero ofrecer servicios!!!
     </a>
 </nav>
+
 <section class="carousel">
     <div class="carousel__container">
-        <!--Line to keep carousel working, in line block
 
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
-    -->
-        <div class="carousel-item">
+        <div class="UniformesImgs-item">
             <img class="carousel-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/r270/40867928_288298701990400_2981374251715526656_o.jpg?_nc_cat=106&ccb=2&_nc_sid=cdbe9c&_nc_ohc=qjFjRNs_C-oAX-4Ruzu&_nc_ht=scontent-bog1-1.xx&oh=0d79cb5dd6a9a665e8453104ffd26c58&oe=6040F22F"
                  alt="bordados camisetas gorras y corbata" />
         </div>
-        <div class="carousel-item">
+        <div class="UniformesImgs-item">
             <img class="carousel-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/41078162_288260945327509_8913868868074602496_o.jpg?_nc_cat=104&ccb=2&_nc_sid=cdbe9c&_nc_ohc=Uc1zlnQo-JAAX-7vZN6&_nc_ht=scontent-bog1-1.xx&oh=87fabec6713f62fbf6ef17bd4c7de559&oe=603F09C5"
                  alt="bordados camisetas" />
         </div>
-        <div class="carousel-item">
+        <div class="UniformesImgs-item">
             <img class="carousel-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/40984429_288260985327505_2503406651516649472_o.jpg?_nc_cat=100&ccb=2&_nc_sid=cdbe9c&_nc_ohc=bfWfYBBF34oAX8IdnFt&_nc_ht=scontent-bog1-1.xx&oh=fc3ea76fce6ae7c961cc05823d789f42&oe=603FE80B"
                  alt="hilos bordadora" />
         </div>
-        <div class="carousel-item">
+        <div class="UniformesImgs-item">
             <img class="carousel-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/40819668_288261058660831_48320744312012800_o.jpg?_nc_cat=102&ccb=2&_nc_sid=cdbe9c&_nc_ohc=PJt4WrTvnzcAX8nPPxc&_nc_ht=scontent-bog1-1.xx&oh=22988e3af010e32e3192a17a4559f5f1&oe=6040ECA9"
                  alt="gorra bordada renoboy" />
         </div>
-        <div class="carousel-item">
+        <div class="UniformesImgs-item">
             <img class="carousel-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/40790555_288261041994166_881941430807822336_o.jpg?_nc_cat=109&ccb=2&_nc_sid=cdbe9c&_nc_ohc=34Zlk9jdh2cAX9Jm4NN&_nc_oc=AQkwFGGiak-4kLs0EVvnC01TNS_R7_43R7i_VqgOC0rNOduncPkpv9F_ehxhObRcWHFyrUvFdwVWvNmbfKaDFHhC&_nc_ht=scontent-bog1-1.xx&oh=798856017dd2a2c5347dd6166793f6bc&oe=603FCDD7"
                  alt="gorra bordada mapfre" />
         </div>
-        <div class="carousel-item">
+        <div class="UniformesImgs-item">
             <img class="carousel-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/41040164_288261008660836_2348901048493539328_o.jpg?_nc_cat=104&ccb=2&_nc_sid=cdbe9c&_nc_ohc=a6oiWDdNN9EAX8WwrlR&_nc_ht=scontent-bog1-1.xx&oh=faa011849af77ab4c26c3b0426e56f15&oe=60404F33"
                  alt="gorra ligera bordada" />
         </div>
-        <!--
-     <div class="carousel-item">
-     <img class="carousel-item__img" src=""
-          alt="" />
-      </div>
-    -->
 
     </div>
 </section>

@@ -114,13 +114,16 @@ header img {
 .UniformesImgs2 {
     width: 100%;
     overflow: hidden;
-    padding: 30px;
+    padding: 60px 30px;
     position: relative;
+    white-space: normal;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 500px;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
     grid-gap: 1rem;
 }
 
@@ -128,18 +131,19 @@ header img {
     white-space: nowrap;
     background-color: rebeccapurple;
     width: 220px;
+    height:325px;
     border-radius: 20px;
     overflow: hidden;
     margin-right: 10px;
     display: inline-block;
     cursor: pointer;
     transition: 450ms all;
-    transform-origin: center left;
+    transform-origin: left top;
     position: relative;
 }
 
     .UniformesImgs-item2:hover ~ .UniformesImgs-item2 {
-        transform: translate3d(200px,0,0);
+        /*transform: translate3d(200px,0,0);*/
     }
 
 .grid:hover .UniformesImgs-item2 {

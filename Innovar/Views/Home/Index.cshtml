@@ -115,6 +115,18 @@
         width: 220px;
         object-fit: cover;
     }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 1rem;
+    }
+
+        .grid > div {
+            background: #EDE7F6;
+            padding: 1.5rem;
+            border-radius: 1rem;
+        }
 </style>
 
 <header>
@@ -176,7 +188,7 @@
 </section>
 
 <section class="UniformesImgs">
-    <div class="UniformesImgs__container">
+    <div class="grid">
         <div class="UniformesImgs-item">
             <img class="UniformesImgs-item__img" src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/41022958_287837428703194_5605685160327512064_o.jpg?_nc_cat=101&ccb=2&_nc_sid=cdbe9c&_nc_ohc=yfu3bY8FnCsAX96P7yf&_nc_ht=scontent-bog1-1.xx&oh=67178226f11064343517f3ab9c85bacb&oe=6043FC23"
                  alt="Uniforme blazer azul y pantalon negro" />

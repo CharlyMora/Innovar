@@ -154,3 +154,7 @@ header img {
         transform: scale(1.5);
         opacity: 1;
     }
+
+.contacto{
+    text-align:center;
+}

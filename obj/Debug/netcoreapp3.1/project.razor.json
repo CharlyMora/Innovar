@@ -14412,6 +14412,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\Shared\\_Clean.cshtml",
+      "TargetPath": "Views\\Shared\\_Clean.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

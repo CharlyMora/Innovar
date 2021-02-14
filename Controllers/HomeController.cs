@@ -1,11 +1,11 @@
-﻿using Innovar.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Innovar.Models;
 
 namespace Innovar.Controllers
 {
@@ -20,16 +20,10 @@ namespace Innovar.Controllers
 
         public IActionResult Index()
         {
-            var Links = new LinksVar();
-            return View(Links);
+            return View();
         }
 
         public IActionResult Privacy()
-        {
-            //test to change the route
-            return View("~/Views/Bordados/Notes.cshtml");
-        }
-        public IActionResult Notes()
         {
             return View();
         }

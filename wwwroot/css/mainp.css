@@ -164,7 +164,7 @@ header img {
 }
 
     .UniformesImgs-item2:hover ~ .UniformesImgs-item2 {
-        /*transform: translate3d(200px,0,0);*/
+        transform: translate3d(200px,0,0);
     }
 
 .grid:hover .UniformesImgs-item2 {

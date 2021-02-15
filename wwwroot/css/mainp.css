@@ -7,20 +7,20 @@ for details on configuring this project to bundle and minify static web assets. 
     height: 10px;
   }
   
-  /* Track */
-  ::-webkit-scrollbar-track {
+/* Track */
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
+}
 
 * {
     margin: 0;
@@ -50,7 +50,7 @@ header img {
 }
 
 
-.carousel-item {
+.Carousel-item {
     white-space: nowrap;
     background-color: rebeccapurple;
     width: 220px;
@@ -140,23 +140,20 @@ header img {
     white-space: normal;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 500px;
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
-    grid-gap: 1rem;
+.Unifs {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .UniformesImgs-item2 {
-    white-space: nowrap;
+
     background-color: rebeccapurple;
     width: 220px;
     height:325px;
     border-radius: 20px;
-    overflow: hidden;
     margin-right: 10px;
-    display: inline-block;
+  
     cursor: pointer;
     transition: 450ms all;
     transform-origin: left top;
@@ -167,11 +164,11 @@ header img {
         transform: translate3d(200px,0,0);
     }
 
-.grid:hover .UniformesImgs-item2 {
+.Unifs:hover .UniformesImgs-item2 {
     opacity: 0.5;
 }
 
-    .grid:hover .UniformesImgs-item2:hover {
+    .Unifs:hover .UniformesImgs-item2:hover {
         transform: scale(1.5);
         opacity: 1;
     }

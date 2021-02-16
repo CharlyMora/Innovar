@@ -127,10 +127,7 @@ header img {
     }
 
 
-.UniformesImgs-item__img {
-    width: 220px;
-    object-fit: cover;
-}
+
 
 .UniformesImgs2 {
     width: 100%;
@@ -152,16 +149,23 @@ header img {
     position: relative;
 }
 .UniformesImgs-item2 {
-
+    
     background-color: rebeccapurple;
     width: 220px;
     height:325px;
-    border-radius: 50px;
+    border-radius: 20px;
     margin:10px 0px;
     cursor: pointer;
     transition: 450ms all;
     transform-origin: left top;
     position: relative;
+    overflow: hidden;
+}
+
+.UniformesImgs-item__img {
+    width: 220px;
+    height:325px;
+    object-fit: cover;
 }
 
     .UniformesImgs-item2:hover ~ .UniformesImgs-item2 {

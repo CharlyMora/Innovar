@@ -1,7 +1,4 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-/* width */
+﻿/* width */
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -83,51 +80,6 @@ header img {
     height: 250px;
     object-fit: cover;
 }
-
-.UniformesImgs {
-    width: 100%;
-    overflow: auto;
-    padding: 30px;
-    position: relative;
-}
-
-.UniformesImgs__container {
-    white-space: nowrap;
-    margin: 70px 0px;
-    padding-bottom: 10px;
-    display: inline-block;
-}
-
-.UniformesImgs-item {
-    white-space: nowrap;
-    background-color: rebeccapurple;
-    width: 220px;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-right: 10px;
-    display: inline-block;
-    cursor: pointer;
-    transition: 450ms all;
-    transform-origin: center left;
-    position: relative;
-}
-
-    .UniformesImgs-item:hover ~ .UniformesImgs-item {
-        transform: translate3d(100px,0,0);
-        background-color: red;
-    }
-
-.UniformesImgs__container:hover .UniformesImgs-item {
-    opacity: 0.5;
-}
-
-    .UniformesImgs__container:hover .UniformesImgs-item:hover {
-        transform: scale(1.5);
-        opacity: 1;
-    }
-
-
-
 
 .UniformesImgs2 {
     width: 100%;

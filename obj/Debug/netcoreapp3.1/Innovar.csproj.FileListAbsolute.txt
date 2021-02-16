@@ -36,3 +36,9 @@ C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3
 C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3.1\Innovar.genruntimeconfig.cache
 C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3.1\Innovar.csproj.CopyComplete
 C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Clean.cshtml.g.cs
+C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3.1\Razor\Views\Home\Bordados.cshtml.g.cs
+C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3.1\Razor\Views\Home\Uniformes.cshtml.g.cs
+C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3.1\Razor\Views\Otros\Bordados.cshtml.g.cs
+C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3.1\Razor\Views\Otros\Index.cshtml.g.cs
+C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3.1\Razor\Views\Otros\Privacy.cshtml.g.cs
+C:\Users\Andres\OneDrive\Documentos\ProgrammingDev\Innovar\obj\Debug\netcoreapp3.1\Razor\Views\Otros\Uniformes.cshtml.g.cs

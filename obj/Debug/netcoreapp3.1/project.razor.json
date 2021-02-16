@@ -14392,6 +14392,26 @@
   "RootNamespace": "Innovar",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\Home\\Uniformes.cshtml",
+      "TargetPath": "Views\\Home\\Uniformes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\Home\\Bordados.cshtml",
+      "TargetPath": "Views\\Home\\Bordados.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\Home copy\\Uniformes.cshtml",
+      "TargetPath": "Views\\Home copy\\Uniformes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\Home copy\\Index.cshtml",
+      "TargetPath": "Views\\Home copy\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14417,6 +14437,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\Home copy\\Privacy.cshtml",
+      "TargetPath": "Views\\Home copy\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -14429,6 +14454,11 @@
     {
       "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Andres\\OneDrive\\Documentos\\ProgrammingDev\\Innovar\\Views\\Home copy\\Bordados.cshtml",
+      "TargetPath": "Views\\Home copy\\Bordados.cshtml",
       "FileKind": "mvc"
     }
   ],

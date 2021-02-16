@@ -9,11 +9,11 @@ using Innovar.Models;
 
 namespace Innovar.Controllers
 {
-    public class HomeController : Controller
+    public class OtrosController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public OtrosController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }

@@ -1,0 +1,106 @@
+﻿.carousel {
+    width: 100%;
+    overflow: auto;
+    padding: 30px;
+    position: relative;
+}
+
+.carousel__container {
+    white-space: nowrap;
+    margin: 70px 0px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+.Carousel-item {
+    white-space: nowrap;
+    background-color: rebeccapurple;
+    width: 220px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+    position: relative;
+}
+
+    .Carousel-item:hover ~ .Carousel-item {
+        transform: translate3d(100px,0,0);
+        background-color: red;
+    }
+
+.carousel__container:hover .Carousel-item {
+    opacity: 0.5;
+}
+
+    .carousel__container:hover .Carousel-item:hover {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+
+.carousel-item__img {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.UniformesImgs2 {
+    width: 100%;
+    overflow: hidden;
+    padding: 60px 30px;
+    position: relative;
+    white-space: normal;
+}
+
+.Unifs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.UniformesImgs-itemdiv{
+    height:325px;
+    width: 0px;
+    margin-right: 10px;
+    position: relative;
+}
+.UniformesImgs-item2 {
+    
+    background-color: rebeccapurple;
+    width: 220px;
+    height:325px;
+    border-radius: 20px;
+    margin:10px 0px;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: left top;
+    position: relative;
+    overflow: hidden;
+}
+
+.UniformesImgs-item__img {
+    width: 220px;
+    height:325px;
+    object-fit: cover;
+}
+
+    .UniformesImgs-item2:hover ~ .UniformesImgs-item2 {
+        transform: translate3d(120px,0,0);
+        margin: 60px 0px;
+    }
+    .UniformesImgs-item2:hover ~ .UniformesImgs-itemdiv {
+        transform: translate3d(120px,0,0);
+        margin: 60px 10px;
+    }
+
+.Unifs:hover .UniformesImgs-item2 {
+    opacity: 0.5;
+}
+
+    .Unifs:hover .UniformesImgs-item2:hover {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+
